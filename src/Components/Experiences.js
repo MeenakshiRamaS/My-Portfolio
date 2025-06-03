@@ -283,7 +283,7 @@ const Experiences = () => {
                         alt={img.imgName}
                         className="absolute w-full h-full object-cover"
                       />
-                      <p className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-sm text-center px-9 py-3">
+                      <p className="absolute bottom-1 left-0 w-full bg-black bg-opacity-50 text-white text-sm text-center flex justify-center items-center px-9 py-4">
                         {img.caption}
                       </p>
                     </div>
