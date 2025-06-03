@@ -17,7 +17,7 @@ const About = () => {
     {
       imgName: "timesquare",
       imgUrl: nycImg,
-      caption: "Growing up in Jersey, I love NYC!",
+      caption: "NYC is one of my favorite places to visit!",
     },
     {
       imgName: "ramen",
