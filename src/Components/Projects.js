@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,25 +8,25 @@ import dailyImg1 from "../Images/ProjectsPage/daily_img1.png";
 import dailyImg2 from "../Images/ProjectsPage/daily_img2.png";
 import pantrypalImg1 from "../Images/ProjectsPage/pantrypal_img1.png";
 import pantrypalImg2 from "../Images/ProjectsPage/pantrypal_img2.jpg";
+import dreamjarImg1 from "../Images/ProjectsPage/dreamjar_img1.png";
+import dreamjarImg2 from "../Images/ProjectsPage/dreamjar_img2.png";
 
 const Projects = () => {
   const arr = [
     {
       projectName: "Pantry Pal",
       projectDescription:
-        "Pantry Pal is a personal project developed by my team and me during Bitcamp 2025, UMD’s annual hackathon. As busy students, we noticed that we often let ingredients go to waste because we don’t know what recipes to make with them. To solve this, we created a tool that allows users to input the ingredients they have in their pantry and fridge and receive a list of recipes they can make using those ingredients. Check out our Devpost to learn more!",
+        "Pantry Pal is a personal project developed by my team and me during Bitcamp 2025, UMD’s annual hackathon. As busy students, we noticed that we often let ingredients go to waste because we don’t know what recipes to make with them. To solve this, we created a tool that allows users to input the ingredients they have in their pantry and fridge and receive a list of recipes they can make using those ingredients. Check out our Devpost below to learn more!",
       techStack:
         "Front-End: React, Javascript, HTML/CSS & BackEnd: Firebase (Auth + Firestore), Groqcloud API, Pexel API",
       imagesArr: [
         {
           imgName: "technica_img1",
           imgUrl: pantrypalImg1,
-          caption: "Technica 2025 Spons Team!",
         },
         {
           imgName: "technica_img2",
           imgUrl: pantrypalImg2,
-          caption: "Me and my friend @Technica 2024",
         },
       ],
       links: [
@@ -46,7 +45,7 @@ const Projects = () => {
     {
       projectName: "UMD Projects",
       projectDescription:
-        "I have completed numerous projects for every computer science course I have taken at UMD. These projects range from basic object-oriented programming to coding Abstract Syntax Trees (ASTs). Due to UMD course policies, these projects cannot be made public. However, if you are interested in my work, please feel free to reach out!",
+        "I have completed numerous projects for every computer science course I have taken at UMD. These projects range from basic object-oriented programming to coding Abstract Syntax Trees (ASTs) and parsers! Due to UMD course policies, these projects cannot be made public. However, if you are interested in my work, please feel free to reach out!",
       techStack: "Java, C, AVR Assembly, OCaml, Rust, Python",
       imagesArr: [
         {
@@ -55,7 +54,7 @@ const Projects = () => {
         },
         {
           imgName: "iribe_img2",
-          imgUrl: umdProjImg1,
+          imgUrl: umdProjImg2,
         },
       ],
       links: [],
@@ -95,14 +94,12 @@ const Projects = () => {
       techStack: "Spons 2025 Co-Director",
       imagesArr: [
         {
-          imgName: "technica_img1",
-          imgUrl: umdProjImg1,
-          caption: "Technica 2025 Spons Team!",
+          imgName: "dreamjar_img1",
+          imgUrl: dreamjarImg1,
         },
         {
-          imgName: "technica_img2",
-          imgUrl: umdProjImg2,
-          caption: "Me and my friend @Technica 2024",
+          imgName: "dreamjar_img2",
+          imgUrl: dreamjarImg2,
         },
       ],
       links: [],
@@ -116,7 +113,7 @@ const Projects = () => {
     slidesToScroll: 1,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
   };
   return (
     <section
@@ -148,18 +145,13 @@ const Projects = () => {
               <div className="links">
                 {project.links && project.links.length > 0 && (
                   <div className="flex justify-left gap-6">
-                    {project.links.map(
-                      (link, index) => (
-                        console.log(link.url),
-                        (
-                          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px]">
-                            <a href={link.url} target={link.iconName}>
-                              <i className={link.icon}></i>
-                            </a>
-                          </span>
-                        )
-                      )
-                    )}
+                    {project.links.map((link, index) => (
+                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px] hover:bg-none hover:text-[#FFFFFF] transition-colors duration-300">
+                        <a href={link.url} target={link.iconName}>
+                          <i className={link.icon}></i>
+                        </a>
+                      </span>
+                    ))}
                   </div>
                 )}
               </div>

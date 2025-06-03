@@ -30,20 +30,32 @@ function App() {
         >
           <nav className="fixed font-quicksand top-0 left-0 w-screen backdrop-blur-md bg-gradient-to-b from-[#341948] via-[#000000] to-[#110C19] z-50">
             <div className="flex justify-center items-center p-4">
-              <HashLink smooth to="#about" className="text-white px-4 py-2">
+              <HashLink
+                smooth
+                to="#about"
+                className="text-white px-4 py-2 hover:font-bold transition-colors duration-300"
+              >
                 About
               </HashLink>
               <HashLink
                 smooth
                 to="#experiences"
-                className="text-white px-4 py-2"
+                className="text-white px-4 py-2 hover:font-bold transition-colors duration-300"
               >
                 Experiences
               </HashLink>
-              <HashLink smooth to="#projects" className="text-white px-4 py-2">
+              <HashLink
+                smooth
+                to="#projects"
+                className="text-white px-4 py-2 hover:font-bold transition-colors duration-300"
+              >
                 Project
               </HashLink>
-              <HashLink smooth to="#other" className="text-white px-4 py-2">
+              <HashLink
+                smooth
+                to="#other"
+                className="text-white px-4 py-2 hover:font-bold transition-colors duration-300"
+              >
                 Other
               </HashLink>
             </div>
@@ -68,23 +80,25 @@ function App() {
                   </h2>
 
                   <div className="flex justify-center gap-6 pt-2">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px] hover:text-[#000000">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px] hover:text-[#FFFFFF] transition-colors duration-300">
                       <a
                         href="https://www.linkedin.com/in/meenakshi-r-a71296243/"
                         target="_blank"
+                        rel="nonreferrer noreferrer"
                       >
                         <i className="bx bxl-linkedin-square"></i>
                       </a>
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px]">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px] hover:text-[#FFFFFF] transition-colors duration-300">
                       <a
                         href="https://github.com/MeenakshiRamaS"
                         target="_blank"
+                        rel="nonreferrer noreferrer"
                       >
                         <i className="bx bxl-github"></i>
                       </a>
                     </span>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px]">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#341948] to-[#9388a2] text-[40px] hover:text-[#FFFFFF] transition-colors duration-300">
                       <a
                         href="mailto:rsubbumeena@yahoo.com"
                         title="Send Me an Email"
@@ -108,20 +122,25 @@ function App() {
           <div>
             <footer className="bg-gradient-to-b from-[#110C19] to-[#000000] border-4 border-black text-white text-center py-4">
               <div className="flex justify-center gap-6 pt-2">
-                <span className="text-transparent bg-clip-text bg-[#9388a2] text-[40px] hover:text-[#000000">
+                <span className="text-transparent bg-clip-text bg-[#9388a2] text-[40px] hover:bg-none hover:text-[#FFFFFF] transition-colors duration-300">
                   <a
                     href="https://www.linkedin.com/in/meenakshi-r-a71296243/"
                     target="_blank"
+                    rel="nonreferrer noreferrer"
                   >
                     <i className="bx bxl-linkedin-square"></i>
                   </a>
                 </span>
-                <span className="text-transparent bg-clip-text bg-[#9388a2] text-[40px]">
-                  <a href="https://github.com/MeenakshiRamaS" target="_blank">
+                <span className="text-transparent bg-clip-text bg-[#9388a2] text-[40px] hover:bg-none hover:text-[#FFFFFF] transition-colors duration-300">
+                  <a
+                    href="https://github.com/MeenakshiRamaS"
+                    target="_blank"
+                    rel="nonreferrer noreferrer"
+                  >
                     <i className="bx bxl-github"></i>
                   </a>
                 </span>
-                <span className="text-transparent bg-clip-text bg-[#9388a2] text-[40px]">
+                <span className="text-transparent bg-clip-text bg-[#9388a2] text-[40px] hover:bg-none hover:text-[#FFFFFF] transition-colors duration-300">
                   <a
                     href="mailto:rsubbumeena@yahoo.com"
                     title="Send Me an Email"
