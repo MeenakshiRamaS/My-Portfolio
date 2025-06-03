@@ -23,7 +23,7 @@ Several sections incorporate sliders for images and links via boxicons.
 
 Links to the complete Figma wireframes are provided below:
 
-[Figma Design] (https://www.figma.com/design/bb4NqZWSce7TZWYmDEPmM4/Portfolio_Website?node-id=0-1&m=dev&t=81ZmIhyd1NFm3LE8-1)
+[Figma Design](https://www.figma.com/design/bb4NqZWSce7TZWYmDEPmM4/Portfolio_Website?node-id=0-1&m=dev&t=81ZmIhyd1NFm3LE8-1)
 
 After the wireframes were complete I broke down the required components, objects, variables, and react frameworks needed. Once the main Components were complete, I followed my wireframes to add aesthetics and Tailwind CSS to ensure a clean and smooth user interface.
 
