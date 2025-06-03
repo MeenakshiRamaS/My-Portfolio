@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Table of Contents
+1. Project Description
+2. Tech Stack
+3. App Features
+4. Design Process with Figma
+5. Future Steps
+6. Closing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+Hello! I'm Meena and this is a personal portfolio. This website is designed to showcase my interests and experiences!
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+This website has been made with React {"{"} React Router, Slider, Scroll Motion {"}"}, JSX, Tailwind CSS, Vercel, Node.js, and npm package manager.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## App Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app features an About Me section, Experiences section, Projects section, and an additional other information section.
+Several sections incorporate sliders for images and links via boxicons.
 
-### `npm test`
+## Design Process with Figma
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Links to the complete Figma wireframes are provided below:
 
-### `npm run build`
+[Figma Design](https://www.figma.com/design/bb4NqZWSce7TZWYmDEPmM4/Portfolio_Website?node-id=0-1&m=dev&t=81ZmIhyd1NFm3LE8-1)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After the wireframes were complete I broke down the required components, objects, variables, and react frameworks needed. Once the main Components were complete, I followed my wireframes to add aesthetics and Tailwind CSS to ensure a clean and smooth user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This website is currenlty hosted on Vercel. I intend to use a custom domain name in the future!
 
-### `npm run eject`
+## Closing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my website! Please feel free to connect!
