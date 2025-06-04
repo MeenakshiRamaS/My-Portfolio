@@ -254,45 +254,47 @@ const Experiences = () => {
       <h2 className="text-[#9388a2] text-3xl font-quicksand text-center py-4 mt-20 mb-2">
         Experiences
       </h2>
-      <p className="text-[#9388a2] text-sm font-quicksand text-left px-8 max-w-6xl mx-auto mb-2">
-        *Click the experience for more information!
-      </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-8 max-w-6xl mx-auto">
-        {arr.map((org, orgIndx) => (
-          <div
-            key={orgIndx}
-            onClick={() => {
-              setCurrOrg(org);
-              setOpenModal(true);
-            }}
-            className="group bg-[#9388a2] relative h-64 shadow-md overflow-hidden transition duration-300 hover:scale-[1.02] relative flex items-center justify-center"
-          >
-            <div className="p-4 transition-opacity duration-300 justify-center items-center text-center">
-              <h3 className="text-[#341948] text-xl font-semibold">
-                {org.orgName}
-              </h3>
-              <p className="text-[#341948] mt-1">{org.orgRole}</p>
-            </div>
-            {org.imagesArr.length > 0 && (
-              <div className="w-full h-full absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity">
-                <Slider {...settings}>
-                  {org.imagesArr.map((img, imgIndx) => (
-                    <div key={imgIndx} className="w-[42vw] h-[32vh] relative">
-                      <img
-                        src={img.imgUrl}
-                        alt={img.imgName}
-                        className="absolute w-full h-full object-cover"
-                      />
-                      <p className="absolute bottom-1 left-0 w-full bg-black bg-opacity-50 text-white text-sm text-center flex justify-center items-center px-9 py-4">
-                        {img.caption}
-                      </p>
-                    </div>
-                  ))}
-                </Slider>
+      <div className="px-8 max-w-6xl mx-auto">
+        <p className="text-[#9388a2] text-sm font-quicksand text-left mb-2">
+          *Click the experience for more information!
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {arr.map((org, orgIndx) => (
+            <div
+              key={orgIndx}
+              onClick={() => {
+                setCurrOrg(org);
+                setOpenModal(true);
+              }}
+              className="group bg-[#9388a2] relative h-64 shadow-md overflow-hidden transition duration-300 hover:scale-[1.02] relative flex items-center justify-center"
+            >
+              <div className="p-4 transition-opacity duration-300 justify-center items-center text-center">
+                <h3 className="text-[#341948] text-xl font-semibold">
+                  {org.orgName}
+                </h3>
+                <p className="text-[#341948] mt-1">{org.orgRole}</p>
               </div>
-            )}
-          </div>
-        ))}
+              {org.imagesArr.length > 0 && (
+                <div className="w-full h-full absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <Slider {...settings}>
+                    {org.imagesArr.map((img, imgIndx) => (
+                      <div key={imgIndx} className="w-[42vw] h-[32vh] relative">
+                        <img
+                          src={img.imgUrl}
+                          alt={img.imgName}
+                          className="absolute w-full h-full object-cover"
+                        />
+                        <p className="absolute bottom-1 left-0 w-full bg-black bg-opacity-50 text-white text-sm text-center flex justify-center items-center px-9 py-4">
+                          {img.caption}
+                        </p>
+                      </div>
+                    ))}
+                  </Slider>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
 
       {openModal && currOrg && (

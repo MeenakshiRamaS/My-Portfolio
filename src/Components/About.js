@@ -22,7 +22,7 @@ const About = () => {
     {
       imgName: "ramen",
       imgUrl: ramenImg,
-      caption: "I love ramen!",
+      caption: "I love ramen from Koreatown!",
     },
     {
       imgName: "cherry",

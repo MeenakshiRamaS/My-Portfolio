@@ -64,12 +64,12 @@ function Modal({ closeModal, org }) {
                     {org.imagesArr.map((img, imgIndx) => (
                       <div
                         key={imgIndx}
-                        className="w-[350px] h-[350px] relative mx-auto"
+                        className="w-[42vw] h-[32vh] relative mx-auto"
                       >
                         <img
                           src={img.imgUrl}
                           alt={img.imgName}
-                          className="w-[350px] h-[350px] object-cover"
+                          className="w-[42vw] h-[32vh] object-cover"
                         />
                         <p className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-sm text-center px-4 py-2">
                           {img.caption}
