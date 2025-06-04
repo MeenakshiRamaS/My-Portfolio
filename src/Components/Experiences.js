@@ -148,7 +148,7 @@ const Experiences = () => {
       orgDescription: "Peraton is a national security and technology company.",
       orgRole: "SWE Co-Op Spring 2026",
       orgRoleDetails:
-        "I will be joining Peraton as a Software Engineer in this January for a spring semester co op. I will be incolved in designing and developing secure technology solutions in an Agile software development environment using, cybersecurity principles, and cloud computing tools. I will collaborate with interdisciplinary teams to engineer satellite ground systems and information management platforms while applying foundational knowledge in computer systems and cloud computing!",
+        "I will be joining Peraton as a Software Engineer in this January for a spring semester co op. I will be involved in designing and developing secure technology solutions in an Agile software development environment using, cybersecurity principles, and cloud computing tools. I will collaborate with interdisciplinary teams to engineer satellite ground systems and information management platforms while applying foundational knowledge in computer systems and cloud computing!",
       imagesArr: [
         {
           imgName: "peraton_logo1",
@@ -254,7 +254,7 @@ const Experiences = () => {
       <h2 className="text-[#9388a2] text-3xl font-quicksand text-center py-4 mt-20 mb-2">
         Experiences
       </h2>
-      <p className="text-[#9388a2] text-sm font-quicksand text-start py-4 ml-48 mt-1">
+      <p className="text-[#9388a2] text-sm font-quicksand text-left px-8 max-w-6xl mx-auto mb-2">
         *Click the experience for more information!
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-8 max-w-6xl mx-auto">

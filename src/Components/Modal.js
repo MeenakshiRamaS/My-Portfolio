@@ -35,7 +35,7 @@ function Modal({ closeModal, org }) {
           <h2 className="text-xl text-center font-medium mt-3">
             {org.orgRole}
           </h2>
-          <div className="grid grid-cols-2 gap-8 mt-8">
+          <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-8">
             <div className="flex flex-col items-start ml-10">
               <p className="mb-5">
                 <span className="font-bold">Description: </span>
