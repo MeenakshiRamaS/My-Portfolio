@@ -91,7 +91,8 @@ const Projects = () => {
       projectName: "DreamJar",
       projectDescription:
         "I worked with team members as part of a Capital One Fintech Future Hackathon to build a web and mobile application, Dream Jar, for collaborative investment and budgeting. We presented project to group of over 50 people and won 2nd place!",
-      techStack: "Spons 2025 Co-Director",
+      techStack:
+        "React Native, Next.js, JavaScript, Tailwind CSS, Figma Wireframes",
       imagesArr: [
         {
           imgName: "dreamjar_img1",
@@ -102,7 +103,13 @@ const Projects = () => {
           imgUrl: dreamjarImg2,
         },
       ],
-      links: [],
+      links: [
+        {
+          icon: "bx bx-globe-alt",
+          url: "https://www.figma.com/design/C9cAIM7sqFtiU6yGCRb2YJ/Dream-Jar?node-id=0-1&p=f",
+          iconName: "Website",
+        },
+      ],
     },
   ];
   const settings = {
